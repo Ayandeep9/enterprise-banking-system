@@ -1,9 +1,12 @@
 package com.banking.account_service.Service;
 
+import com.banking.account_service.DTO.CustomerDTO;
 import com.banking.account_service.Repository.accountRepo;
 import com.banking.account_service.model.account;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -13,6 +16,17 @@ public class accountServiceImp implements accountService{
 
     @Autowired
     private accountRepo accountRepo;
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    @Value("${customer.service.url}")
+    private String customerServiceUrl;
+
+    public CustomerDTO getCustomerDetails(Long customerId) {
+        String url = customerServiceUrl + "/" + customerId;
+        return restTemplate.getForObject(url, CustomerDTO.class);
+    }
 
     @Override
     public account createAccount(account account) {
