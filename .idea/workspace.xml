@@ -6,10 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="bf8aa220-6b9b-4b04-929e-324ab9153be3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/banking/account_service/AccountServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/banking/account_service/AccountServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/banking/account_service/Controller/accountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/banking/account_service/Controller/accountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/banking/account_service/Service/accountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/banking/account_service/Service/accountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/banking/account_service/Service/accountServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/banking/account_service/Service/accountServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/banking/api_gateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/banking/api_gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/banking/customer_service/Controller/customerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/banking/customer_service/Controller/customerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/banking/customer_service/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/banking/customer_service/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,8 +136,8 @@
       <list>
         <item itemvalue="Application.AccountServiceApplication" />
         <item itemvalue="Application.CustomerServiceApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
